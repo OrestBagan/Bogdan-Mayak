@@ -1,0 +1,210 @@
+aside{
+    background-color: #1E2939;
+    width: 370px;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: auto;
+}
+
+.main-content{
+    width: 1200px;
+    background-color: #FFFFFF;
+    
+    padding-left: 90px;
+    padding-top: 105px;
+    padding-right: 90px;
+    padding-bottom: 105px;
+}
+
+.info_main{
+    display: flex;
+}
+
+.info_img{
+    margin-left: 3%;
+    margin-top: 12px;
+    width: 500px;
+    /* height: 400px; */
+}
+
+.sidebar-titel{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.contacts, .techSkills, .softSkills{
+    margin-left: 40px;
+}
+
+.liters{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px; 
+    margin-right: 7px;
+}
+
+.link{
+    opacity: 0.5;
+    color: gray;
+}
+
+.skilsList{
+    color: #20E41C;
+    padding-left: 0px;
+    margin-left: 17px;
+}
+
+.skillsText{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about{
+    margin-bottom: 40px;
+}
+
+.about-position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.about-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    font-size: 60px;
+}
+
+.about-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #595959;
+    padding-top: 5px;
+    width: 400px;
+    height: 120px;
+    left: 498px;
+    top: 252px;
+}
+
+.projects{
+    margin-bottom: 51px;
+}
+
+.projects-name{
+    width: 95px;
+    height: 27px;
+    left: 498px;
+    top: 412px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.text-project{
+    width: 131px;
+    height: 72px;
+    left: 852px;
+    top: 447px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.linksss{
+    width: 216px;
+    height: 72px;
+    left: 524px;
+    top: 447px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.pages{
+    margin-bottom: 35px;
+    
+}
+
+.pages-name{
+    width: 262px;
+    height: 20px;
+    left: 498px;
+    top: 609px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+
+.color{
+    color: #20E41C;
+    font-size: 18px;
+}
+
+.textList{
+    width: 509px;
+    height: 120px;
+    left: 514px;
+    top: 663px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding: 17px;
+}
+
+.number-list{
+    padding-left: 17px;
+}
+
+.main{
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.number-list{
+    font-size: 0;
+    font-size: 20px;
+
+}
+
+body{
+    /* background-image: url(/img/123-1.png); */
+}
+
+.img{
+    width: 313px;
+    padding-top: 5px;
+}
