@@ -4,30 +4,13 @@ body {
     margin: 0px;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/asfalt-dark.png);
 }
 .main{
     min-height: 100%;
     flex-direction: column;
     display: flex;
 }
-
-.next{
-    /* text-align: center; */
-    font-size: 22px;
-    /* display: flex; */
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-left: 990px;
-}
-
-.more{
-    color: rgb(169, 169, 169);
-    text-align: right;
-    padding-bottom: 10px;
-    width: 99px;
-    
-}
-
 
 .header {
     width: 100%;
@@ -77,27 +60,95 @@ a:hover{
     border-radius: 100px;
 }
 
-@media (max-width: 768px) {
-    .burger {
-        display: block;
-        margin-left: 10%;
-        font-size: 36px;
-    }
-    .item-menu {
-        display: none;
-    }
+.main_text {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    box-shadow: 1px 1px 10px black;
+    background-image: url(/background.png);
+    background-size: 100%;
+    border: solid;
+    border-color: black;
+    border-radius: 7px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+   
 }
 
-.burger {
-    display: none;
-    cursor: pointer;
+.main_img_1{
+    height: 10px;
+}
+
+.txt{
+    color: black;
+    width: 850px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 13px;
+    padding-top: 13px;
+}
+
+.txt1{
+    height: 190px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 13px;
+    padding-top: 13px;
+}
+
+.img{
+    width: 300px;
+    height: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 202px;
+    border-radius: 15px;
     
 }
 
-.main_text {
-    width: 70%;
-    margin: auto;
-    text-align: justify;
+.img1,.img2{
+    position: relative;
+}
+
+.img1{
+    width: 300px;
+    height: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 200px;
+ 
+    border-radius: 15px;
+    margin-left: 500px;
+    
+}
+
+.img2{
+    width: 300px;
+    height: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    border-radius: 15px;
+    top: -200px;
+    margin-left: 190px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    width: 30px;
+    padding-left: 20px;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+    text-shadow: none;
+    opacity: none;
+    color: #808080;
 }
 
 .footor{
