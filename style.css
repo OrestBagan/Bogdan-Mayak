@@ -146,6 +146,15 @@ aside{
     font-size: 18px;
     line-height: 24px;
     color: #595959;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .pages{

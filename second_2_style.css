@@ -1,7 +1,14 @@
+html,
 body {
     padding: 0px;
     margin: 0px;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
 }
 
 .next{
@@ -20,6 +27,7 @@ body {
     width: 99px;
     
 }
+
 
 .header {
     width: 100%;
@@ -90,4 +98,26 @@ a:hover{
     width: 70%;
     margin: auto;
     text-align: justify;
+}
+
+.footor{
+    background-color: #1E2939;
+    min-height: 100%;
+    text-align: center;
+    height: 70px;
+}
+
+.footor_text{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #808080;
+    position: absolute;
+    padding-left: 400px;
+
+}
+.footor_cont{
+    position: absolute;
+    color: #808080;
+    padding-left: 500px;
 }
