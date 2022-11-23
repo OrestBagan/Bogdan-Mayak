@@ -10,14 +10,15 @@ body {
     /* display: flex; */
     margin-left: 20%;
     margin-right: 20%;
-    
+    margin-left: 990px;
 }
 
 .more{
-    color: darkgray;
+    color: rgb(169, 169, 169);
     text-align: right;
     padding-bottom: 10px;
     width: 99px;
+    
 }
 
 .header {
