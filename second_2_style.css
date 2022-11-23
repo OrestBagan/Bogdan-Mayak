@@ -103,21 +103,32 @@ a:hover{
 .footor{
     background-color: #1E2939;
     min-height: 100%;
-    text-align: center;
     height: 70px;
-}
-
-.footor_text{
-    text-align: center;
-    font-size: 14px;
-    line-height: 1.5;
+    display: flex;
     color: #808080;
-    position: absolute;
-    padding-left: 400px;
-
 }
+
 .footor_cont{
-    position: absolute;
-    color: #808080;
-    padding-left: 500px;
+    padding-left: 150px;
+    margin-top: 25px;
 }
+
+.footor_email{
+    padding-left: 450px;
+    margin-top: 25px;
+}
+
+.footor_magazin{
+    padding-left: 550px;
+    margin-top: 25px;
+    
+}
+
+.icon_inst{
+    margin-top: 24px;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #afaaaa;
+}
+
+
