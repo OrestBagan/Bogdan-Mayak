@@ -64,7 +64,9 @@ a {
 }
 
 a:hover{
-    opacity: 65%;
+    opacity: 85%;
+    text-shadow: 1px 1px 10px gray;
+    border-radius: 100px;
 }
 
 @media (max-width: 768px) {
