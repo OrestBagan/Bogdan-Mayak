@@ -4,6 +4,7 @@ body {
     margin: 0px;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/asfalt-dark.png);
 }
 .main{
     min-height: 100%;
@@ -97,7 +98,65 @@ a:hover{
 .main_text {
     width: 70%;
     margin: auto;
-    text-align: justify;
+    /* text-align: justify; */
+    display: flex;
+    box-shadow: 1px 1px 10px black;
+    /* background-color: #242f40; */
+    background-image: url(/background.png);
+    background-size: 100%;
+    border: solid;
+    border-color: black;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.txt{
+    width: 400px;
+    /* text-align: center; */
+    color: black;
+    width: 850px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 13px;
+    padding-top: 13px;
+}
+
+.img{
+    width: 300px;
+    height: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 202px;
+    /* text-align: right; */
+    border-radius: 15px;
+}
+
+.img2{
+    width: 300px;
+    height: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 200px;
+    /* text-align: right; */
+    border-radius: 15px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    width: 30px;
+    padding-left: 20px;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+    text-shadow: none;
+    opacity: none;
+    color: #808080;
 }
 
 .footor{
@@ -106,6 +165,7 @@ a:hover{
     height: 70px;
     display: flex;
     color: #808080;
+    
 }
 
 .footor_cont{
