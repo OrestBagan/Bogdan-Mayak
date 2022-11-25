@@ -142,11 +142,10 @@ a:hover{
 
 .link{
     text-decoration: none;
-    color: black;
+    color: rgb(30, 54, 141);
     font-size: 21px;
     width: 30px;
-    padding-left: 20px;
-    margin-left: 330px;
+    margin-left: 350px;
 
 }
 
@@ -154,7 +153,7 @@ a:hover{
     text-decoration: underline;
     text-shadow: none;
     opacity: none;
-    color: #808080;
+    color: #354a64;
 }
 
 .footor{
