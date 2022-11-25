@@ -81,6 +81,10 @@ a:hover{
     height: 10px;
 }
 
+.main_img{
+    margin-left: 158px;
+}
+
 .txt{
     color: black;
     width: 850px;
@@ -103,7 +107,7 @@ a:hover{
     height: 180px;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-left: 38px;
+    /* margin-left: 38px; */
     border-radius: 15px;
     
 }
@@ -117,7 +121,7 @@ a:hover{
     height: 180px;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
  
     border-radius: 15px;
     margin-left: 500px;
