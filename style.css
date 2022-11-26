@@ -65,6 +65,7 @@ aside{
     color: #20E41C;
     padding-left: 0px;
     margin-left: 17px;
+    max-width: 200px;
 }
 
 .skillsText{
@@ -73,6 +74,7 @@ aside{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 10px;
 }
 
 .about{
@@ -165,8 +167,12 @@ a:hover{
 }
 
 .pages{
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     
+}
+
+.plan{
+    font-size: 28px;
 }
 
 .pages-name{
@@ -177,14 +183,14 @@ a:hover{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 20px;
     
 }
 
 .color{
     color: #20E41C;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .textList{
@@ -195,7 +201,7 @@ a:hover{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 24px;
     color: #595959;
     /* padding: 17px; */
