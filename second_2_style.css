@@ -142,16 +142,9 @@ a:hover{
     text-decoration: none;
     color: rgb(30, 54, 141);
     font-size: 21px;
-    width: 250px;
+    max-width: 280px;
     margin-left: 300px;
 
-}
-
-.link:hover{
-    text-decoration: underline;
-    text-shadow: none;
-    opacity: none;
-    color: #354a64;
 }
 
 .footor{

@@ -149,11 +149,12 @@ a:hover{
 
 }
 
-.link:hover{
-    text-decoration: underline;
-    text-shadow: none;
-    opacity: none;
-    color: #354a64;
+.link2{
+    text-decoration: none;
+    color: rgb(30, 54, 141);
+    font-size: 21px;
+    max-width: 270px;
+    margin-left: 300px;
 }
 
 .footor{
