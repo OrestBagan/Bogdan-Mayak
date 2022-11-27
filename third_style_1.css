@@ -1,10 +1,10 @@
-
+html,
 body {
     padding: 0px;
     margin: 0px;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/asfalt-dark.png)
+    background-image: url(/background2.png)
 }
 
 .main{
@@ -26,7 +26,7 @@ body {
 .conteiner {
     margin: auto;
     width: 80%;
-    margin-left: 100px;
+    margin-left: 16 0px;
     text-align: center;
 
 }
@@ -55,7 +55,7 @@ li {
     font-size: 24px;
     text-align: center;
     text-decoration: none;
-    color: #20E41C;
+    color: #1ce4b5;
     display: block;
     
 }
@@ -65,3 +65,52 @@ li {
     text-shadow: 1px 1px 10px gray;
     border-radius: 100px;
 } 
+
+.main-txt{
+    text-align: justify;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.txt-block{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.txt{
+    font-size: 20px;
+    
+}
+
+.footor{
+    background-color: #1E2939;
+    min-height: 100%;
+    height: 70px;
+    display: flex;
+    color: #808080;
+    margin-top: 75px;
+}
+
+.footor_cont{
+    padding-left: 150px;
+    margin-top: 25px;
+}
+
+.footor_email{
+    padding-left: 450px;
+    margin-top: 25px;
+}
+
+.footor_magazin{
+    padding-left: 550px;
+    margin-top: 25px;
+    
+}
+
+.icon_inst{
+    margin-top: 24px;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #afaaaa;
+}
