@@ -1,19 +1,15 @@
 aside{
     background-color: #1E2939;
-    width: 370px;
 }
 
 .main1{
     display: flex;
     flex-direction: row-reverse;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    width: 80%;
     margin: auto;
 }
 
 .main-content{
     width: 1200px;
-    background-color: #FFFFFF;
     
     padding-left: 90px;
     padding-top: 105px;
@@ -29,13 +25,11 @@ aside{
     margin-left: 3%;
     margin-top: 12px;
     width: 500px;
-    /* height: 400px; */
 }
 
 .sidebar-titel{
     color: #FFFFFF;
     font-style: normal;
-    font-weight: 700;
     font-size: 22px;
     line-height: 27px;
 }
@@ -209,9 +203,7 @@ a:hover{
 
 }
 
-body{
-    /* background-image: url(/img/123-1.png); */
-}
+
 
 .img{
     width: 313px;
