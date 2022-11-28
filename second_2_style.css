@@ -79,7 +79,13 @@ a:hover{
 
 .main_img_1{
     height: 10px;
+    overflow: hidden;
 }
+
+.main_img{
+    margin-left: 158px;
+}
+
 
 .txt{
     color: black;
@@ -103,7 +109,6 @@ a:hover{
     height: 200px;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-left: 38px;
     border-radius: 15px;
     
 }
@@ -117,7 +122,6 @@ a:hover{
     height: 300px;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-left: 30px;
     border-radius: 15px;
     
 }
@@ -136,19 +140,11 @@ a:hover{
 
 .link{
     text-decoration: none;
-    color: black;
+    color: rgb(30, 54, 141);
     font-size: 21px;
-    width: 250px;
-    padding-left: 20px;
-    margin: auto;
+    max-width: 280px;
+    margin-left: 300px;
 
-}
-
-.link:hover{
-    text-decoration: underline;
-    text-shadow: none;
-    opacity: none;
-    color: #808080;
 }
 
 .footor{

@@ -1,3 +1,7 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 aside{
     background-color: #1E2939;
 }
@@ -52,10 +56,15 @@ aside{
     color: gray;
 }
 
+.link:hover{
+    color: azure;
+}
+
 .skilsList{
     color: #20E41C;
     padding-left: 0px;
     margin-left: 17px;
+    max-width: 200px;
 }
 
 .skillsText{
@@ -64,6 +73,7 @@ aside{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 10px;
 }
 
 .about{
@@ -90,6 +100,7 @@ aside{
 }
 
 .about-text{
+    text-align: justify;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -111,7 +122,6 @@ aside{
     height: 27px;
     left: 498px;
     top: 412px;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -134,13 +144,16 @@ aside{
     height: 72px;
     left: 524px;
     top: 447px;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #595959;
+    color: #2345a1;
     text-decoration: none;
+}
+
+.linksss:hover{
+    color: #62beec;
 }
 
 a{
@@ -152,8 +165,12 @@ a:hover{
 }
 
 .pages{
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     
+}
+
+.plan{
+    font-size: 28px;
 }
 
 .pages-name{
@@ -161,17 +178,16 @@ a:hover{
     height: 20px;
     left: 498px;
     top: 609px;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 20px;
     
 }
 
 .color{
     color: #20E41C;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .textList{
@@ -179,10 +195,9 @@ a:hover{
     height: 120px;
     left: 514px;
     top: 663px;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 24px;
     color: #595959;
     /* padding: 17px; */
@@ -202,8 +217,6 @@ a:hover{
     font-size: 20px;
 
 }
-
-
 
 .img{
     width: 313px;

@@ -77,12 +77,16 @@ a:hover{
 }
 
 .main_img_1{
-    height: 10px;
+    margin-left: 72px;
+}
+
+.main_img{
+    margin-left: 17px;
 }
 
 .txt{
     color: black;
-    width: 780px;
+    width: 830px;
     font-size: 20px;
     text-align: center;
     padding-left: 13px;
@@ -98,8 +102,8 @@ a:hover{
 }
 
 .img{
-    width: 320px;
-    height: 360px;
+    width: 378px;
+    height: 582px;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-left: 88px;
