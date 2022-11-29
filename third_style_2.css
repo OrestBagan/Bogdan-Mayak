@@ -74,12 +74,14 @@ li {
 
 .main-img{
     /* max-width: 250px; */
-    margin: 0px;
+    margin: 10px;
 }
 
 .img{
-    width: 300px;
+    width: 330px;
     height: 230px;
+    border: solid;
+    border-radius: 3%;
 }
 
 .main-txt{
