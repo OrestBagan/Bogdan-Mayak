@@ -89,7 +89,21 @@ li {
     max-width: 1264px;
     /* margin-left: 5%;
     margin-right: 5%; */
-    max-height: 230px;
+    max-height: 280px;
+}
+
+.list-txt{
+    width: 600px;
+}
+
+.main-list-img{
+    display: flex;
+}
+
+.img-list{
+    margin-left: 105px;
+    border: solid;
+    border-radius: 3%;
 }
 
 .txt-block{
@@ -111,6 +125,31 @@ li {
 .txt{
     font-size: 20px;
     margin: 25px;
+}
+
+.txt-block-2{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    box-shadow: 1px 1px 10px black;
+    background-image: url(/background.png);
+    background-size: 100%;
+    border: solid;
+    border-color: black;
+    border-radius: 7px;
+    margin-bottom: 32px;
+    margin-top: 20px;
+   
+}
+
+.a-2{
+    color: #265eb2;
+    text-decoration: none;
+}
+
+.a-2:hover{
+    color: rgb(32, 168, 209);
 }
 
 .footor{
